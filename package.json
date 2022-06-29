@@ -19,6 +19,6 @@
     "build": "vitepress build docs"
   },
   "dependencies": {
-    "ant-design-vue": "^3.2.7"
+    "element-plus": "^2.2.6"
   }
 }

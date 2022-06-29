@@ -1,6 +1,6 @@
 ## 特性
 
-- 集成 UI 库（ant-design-vue）
+- 集成 UI 库（element-plus）
 - 集成 tailwindcss
 - 组件自动注册
 
@@ -9,7 +9,7 @@
 <br>
 
 <Example>
-  <a-button type="primary" danger>
+  <el-button type="primary" plain>
     我是一个按钮
-  </a-button>
+  </el-button>
 </Example>

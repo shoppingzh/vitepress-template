@@ -1,7 +1,7 @@
 import Theme from 'vitepress/theme'
-import ui from './ui'
-import components from '../components'
-import '../styles/index.less'
+import ui from '@/plugins/element-ui'
+import components from '@/components'
+import '@/styles/index.less'
 
 export default {
   ...Theme,

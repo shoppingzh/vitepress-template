@@ -2,7 +2,6 @@
   "name": "vitepress-template",
   "version": "0.0.1",
   "description": "vitepress documentation template",
-  "main": "index.js",
   "repository": "git@github.com:shoppingzh/vitepress-template.git",
   "author": "shoppingzh <xpzheng6@163.com>",
   "license": "MIT",

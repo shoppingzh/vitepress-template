@@ -6,7 +6,10 @@ import 'virtual:svg-icons-register'
 
 export default {
   ...Theme,
-  enhanceApp({ app }) {
+  enhanceApp(ctx) {
+    const { app } = ctx;
+
+    Theme.enhanceApp(ctx);
     app.use(ui)
     app.use(components)
   }

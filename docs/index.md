@@ -5,7 +5,7 @@ hero:
   text: Vitepress模板，快速搭建你的文档网站
   actions:
     - theme: brand
-      text: 快速开始
+      text: 快速入手
       link: /start
 features:
   - title: 快

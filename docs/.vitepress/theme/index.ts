@@ -3,9 +3,11 @@ import ui from '@/plugins/element-ui'
 import components from '@/components'
 import '@/styles/index.css'
 import 'virtual:svg-icons-register'
+import Layout from './Layout.vue'
 
 export default {
   ...Theme,
+  Layout,
   enhanceApp(ctx) {
     const { app } = ctx;
 

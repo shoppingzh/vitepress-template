@@ -2,9 +2,13 @@
 
 vitepress模板
 
+在线演示：[https://vitepress.zhengxiaoping.xyz/](https://vitepress.zhengxiaoping.xyz/)
+
 ## 👁️ 预览
 
 ![](./preview.png)
+
+# 快速入手
 
 ## 🚀 特性
 
@@ -18,6 +22,8 @@ vitepress模板
 - SVG图标（自动拉取iconfont）
 - 组件自动注册
 - 自定义vite配置
+- 全局布局自定义
+- 返回顶部
 
 ## ✈️ 下载并使用
 

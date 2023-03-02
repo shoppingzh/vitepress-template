@@ -23,7 +23,9 @@ import { watch } from 'vue'
 import { useRoute } from 'vitepress'
 
 const { Layout } = Theme
-const zoom = mediumZoom()
+const zoom = mediumZoom(undefined, {
+  background: 'rgba(0, 0, 0, .75)',
+})
 const route = useRoute()
 
 // FIXME 迫不得已，先使用这种办法，待vitepress提供文档插槽后，可重构此代码

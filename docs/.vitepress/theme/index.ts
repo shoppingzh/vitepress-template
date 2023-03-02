@@ -3,7 +3,7 @@ import ui from '@/plugins/element-ui'
 import components from '@/components'
 import '@/styles/index.css'
 import 'virtual:svg-icons-register'
-import Layout from './Layout.vue'
+import Layout from '../layout/index.vue'
 
 export default {
   ...Theme,

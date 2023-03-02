@@ -27,6 +27,7 @@
     "gen-icons": "node docs/.vitepress/build/gen-icons.js"
   },
   "dependencies": {
-    "element-plus": "^2.2.32"
+    "element-plus": "^2.2.32",
+    "medium-zoom": "^1.0.8"
   }
 }

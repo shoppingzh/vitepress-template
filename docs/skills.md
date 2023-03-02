@@ -34,3 +34,13 @@
   <Badge type="warning" text="标签3" />
   <Badge type="danger" text="标签4" />
 </Example>
+
+## 返回顶部
+
+::: tip
+见右下角小火箭。
+:::
+
+## 图片缩放
+
+![](/logo.svg)

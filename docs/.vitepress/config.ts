@@ -27,6 +27,6 @@ export default defineConfig({
       text: '🎨 使用技巧',
       link: '/skills.md'
     }],
-    sidebar: autoGenerateSidebar as any,
+    sidebar: autoGenerateSidebar() as any,
   }
 })

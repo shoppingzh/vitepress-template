@@ -8,7 +8,8 @@ export default defineConfig({
   lastUpdated: true,
   // 标签页logo
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }], // chrome pwa
   ],
   markdown: {
     lineNumbers: true,

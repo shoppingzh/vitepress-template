@@ -1,0 +1,15 @@
+{
+  "background_color": "#fff",
+  "description": "开箱即用的Vitepress模板，快速搭建你的文档网站。",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Vitepress Template",
+  "short_name": "Vitepress Template",
+  "start_url": "/index.html"
+}

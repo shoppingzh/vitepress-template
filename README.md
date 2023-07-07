@@ -41,3 +41,9 @@ git clone https://github.com/shoppingzh/vitepress-template.git
 - 重写 `docs/index.md`，设计自己的首页
 - 根据需要删除无用文档，新增自己的文档
 - 修改 `docs/public/manifest.webmanifest` 配置
+
+## 升级记录
+
+- 2023-07-07 优化图片插件触发时机
+  - 升级vitepress至1.0.0-beta.5版本
+  - 优化medium-zoom的触发时机，从路由变化改为调用 `onContentUpdated` 钩子

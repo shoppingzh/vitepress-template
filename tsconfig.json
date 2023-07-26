@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "esModuleInterop": true,
     "paths": {
       "@/*": ["docs/.vitepress/*"]
     }
   },
-  "include": ["docs/**/*"],
+  "include": ["docs/**/*", "docs/.vitepress/**/*"],
   "exclude": ["node_modules"] 
 }

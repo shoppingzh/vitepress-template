@@ -7,11 +7,11 @@
 
 ## 🚀 特性
 
-- 默认配置(logo/目录)
 - 自动生成导航栏与侧边栏
-- 组件库：element-plus
-- 原子化CSS：TailwindCSS
-- SVG图标（自动拉取iconfont）
+- UI集成
+  - 组件库：element-plus
+  - 原子化CSS：TailwindCSS
+  - SVG图标（自动拉取iconfont）
 - 组件自动注册
 - 自定义vite配置
 - 全局布局自定义
@@ -32,7 +32,10 @@ git clone https://github.com/shoppingzh/vitepress-template.git
 - 修改 `package.json`，重写 `name` / `version` / `description` / `repository` / `author` 等字段
 - 打开 `docs/.vitepess/config.mts`，修改：
   - `title`：网站标题
-  - `nav` / `sidebar`：导航栏与侧边栏
+  - `themeConfig` 默认主题配置
+    - `nav`：导航栏
+    - `sidebar`：侧边栏
+    - `editLink`：编辑链接
 - 替换 `docs/public/logo.svg` 文件
 - 重写 `docs/index.md`，设计自己的首页
 - 根据需要删除无用文档，新增自己的文档
@@ -45,3 +48,5 @@ git clone https://github.com/shoppingzh/vitepress-template.git
   - 优化medium-zoom的触发时机，从路由变化改为调用 `onContentUpdated` 钩子
 - 2024/01/15
   - 升级Vitepress版本(1.0.0-rc.37)
+  - 新增编辑链接配置
+  - 新增搜索配置

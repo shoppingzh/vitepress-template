@@ -32,5 +32,16 @@ export default defineConfig({
       link: '/skills.md'
     }],
     sidebar: autoGenerateSidebar() as any,
+    
+    // 编辑
+    editLink: {
+      pattern: 'https://github.com/shoppingzh/vitepress-template/edit/main/docs/:path',
+      text: '在Github编辑',
+    },
+
+    // 搜索
+    search: {
+      provider: 'local',
+    },
   }
 })

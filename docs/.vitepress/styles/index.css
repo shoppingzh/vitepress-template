@@ -1,6 +1,6 @@
 @import "./tailwindcss.css";
 
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, theme('colors.purple.500'), theme('colors.green.500'));
+  /* --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, theme('colors.purple.500'), theme('colors.green.500')); */
 }

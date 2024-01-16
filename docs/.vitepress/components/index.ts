@@ -1,6 +1,6 @@
 import { App } from 'vue'
 
-const modules = import.meta.globEager('./**/*.vue')
+const modules = import.meta.glob('./**/*.vue', { eager: true })
 
 function getComponentName(path: string) {
   const re = new RegExp(/^\.\/(.*)?\.vue$/g)

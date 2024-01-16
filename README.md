@@ -3,7 +3,7 @@
 
 ## 👁️ 预览
 
-![](./preview.png)
+![](https://github.com/shoppingzh/vitepress-template/blob/main/preview.png?raw=true)
 
 ## 🚀 特性
 

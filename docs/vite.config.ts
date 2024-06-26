@@ -1,5 +1,4 @@
 import { resolve } from 'path'
-import { UserConfig } from 'vite'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 
 export default {
@@ -16,4 +15,4 @@ export default {
       symbolId: 'svg-icon/[name]',
     }),
   ],
-} as UserConfig
+}

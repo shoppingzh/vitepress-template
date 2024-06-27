@@ -9,9 +9,6 @@ hero:
     - theme: brand
       text: 快速入手
       link: /start
-    - theme: alt
-      text: 使用技巧
-      link: /skills
 features:
   - icon: ⚡
     title: 简单

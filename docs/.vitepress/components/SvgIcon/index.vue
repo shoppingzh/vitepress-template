@@ -4,18 +4,18 @@
       <use :xlink:href="symbolId" />
     </svg>
   </i>
-  <i v-else v-html="inline" class="svg-icon inline-block"></i>
+  <i v-else class="svg-icon inline-block" v-html="inline"></i>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed } from 'vue'
 
 interface Props {
   name?: string,
   inline?: string,
 }
-const props = defineProps<Props>();
-const symbolId = computed(() => `#svg-icon/${props.name}`);
+const props = defineProps<Props>()
+const symbolId = computed(() => `#svg-icon/${props.name}`)
 </script>
 
 <style scoped>

@@ -9,12 +9,19 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "lint": "eslint .",
+    "format": "eslint . --fix",
     "gen-icons": "node docs/.vitepress/build/gen-icons.js"
   },
   "devDependencies": {
+    "@shoppingzh/eslint-config": "^3.0.2",
+    "@stylistic/eslint-plugin": "^2.3.0",
     "@types/node": "^18.14.1",
     "@types/rimraf": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
     "autoprefixer": "^10.4.13",
+    "eslint": "^9.5.0",
+    "eslint-plugin-vue": "^9.26.0",
     "iconfont-downloader": "^0.0.2",
     "postcss": "^8.4.21",
     "press-util": "^0.1.1",

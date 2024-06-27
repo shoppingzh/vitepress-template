@@ -19,8 +19,8 @@ export const injectKey = Symbol('Layout')
 // 具体使用参见：https://vitepress.vuejs.org/guide/theme-introduction#extending-the-default-theme
 import Theme from 'vitepress/theme'
 import mediumZoom, { Zoom } from 'medium-zoom'
-import { onBeforeMount, onMounted, watch } from 'vue'
-import { useRouter, useRoute, onContentUpdated } from 'vitepress'
+import { onBeforeMount, } from 'vue'
+import { onContentUpdated } from 'vitepress'
 
 const { Layout } = Theme
 let zoom: Zoom

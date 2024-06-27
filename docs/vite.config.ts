@@ -4,7 +4,7 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 export default {
   resolve: {
     alias: [
-      { find: '@', replacement: resolve(__dirname, './.vitepress')}
+      { find: '@', replacement: resolve(__dirname, './.vitepress') }
     ]
   },
   plugins: [

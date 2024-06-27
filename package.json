@@ -1,10 +1,4 @@
 {
-  "name": "vitepress-template",
-  "version": "0.0.1",
-  "description": "vitepress documentation template",
-  "repository": "git@github.com:shoppingzh/vitepress-template.git",
-  "author": "shoppingzh <xpzheng6@163.com>",
-  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",

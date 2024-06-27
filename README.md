@@ -26,8 +26,7 @@ git clone https://github.com/shoppingzh/vitepress-template.git
 
 **使用时，请对以下内容进行修改：**
 
-- 修改 `package.json`，重写 `name` / `version` / `description` / `repository` / `author` 等字段
-- 打开 `docs/.vitepess/config.mts`，修改：
+- 打开 `docs/.vitepess/config.ts`，修改：
   - `title`：网站标题
   - `themeConfig` 默认主题配置
     - `nav`：导航栏
@@ -35,8 +34,8 @@ git clone https://github.com/shoppingzh/vitepress-template.git
     - `editLink`：编辑链接
 - 替换 `docs/public/logo.svg` 文件
 - 重写 `docs/index.md`，设计自己的首页
-- 根据需要删除无用文档，新增自己的文档
 - 修改 `docs/public/manifest.webmanifest` 配置
+- 根据需要删除无用文档，新增自己的文档
 
 ## 升级记录
 
@@ -47,3 +46,8 @@ git clone https://github.com/shoppingzh/vitepress-template.git
   - 升级vitepress版本(1.0.0-rc.37)
   - 新增编辑链接配置
   - 新增搜索配置
+- 2024/06/27
+  - 升级vitepress版本(1.2.3)
+  - 去掉《使用技巧》页面
+  - 合并vite配置到vitepress配置中
+  - 其他优化

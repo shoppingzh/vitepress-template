@@ -4,7 +4,7 @@ import { autoGenerateSidebar } from 'press-util'
 export default defineConfig({
   base: '/',
   appearance: true,
-  title: 'Vitepress Template',
+  title: 'VitePress Template',
   lastUpdated: true,
   // 标签页logo
   head: [

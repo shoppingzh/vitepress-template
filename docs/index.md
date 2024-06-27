@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: Vitepress Template
-  tagline: 开箱即用的Vitepress模板，快速搭建你的文档网站。
+  name: VitePress Template
+  tagline: 开箱即用的Vite Press模板，快速搭建你的文档网站。
   image:
     src: /brand.svg
   actions:

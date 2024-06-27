@@ -47,6 +47,6 @@ git clone https://github.com/shoppingzh/vitepress-template.git
   - 升级vitepress至1.0.0-beta.5版本
   - 优化medium-zoom的触发时机，从路由变化改为调用 `onContentUpdated` 钩子
 - 2024/01/15
-  - 升级Vitepress版本(1.0.0-rc.37)
+  - 升级vitepress版本(1.0.0-rc.37)
   - 新增编辑链接配置
   - 新增搜索配置

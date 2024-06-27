@@ -1,9 +1,6 @@
 # vitepress-template
-在线演示：[https://vitepress.zhengxiaoping.xyz/](https://vitepress.zhengxiaoping.xyz/)
+[在线演示](https://vitepress-template.vercel.app/)
 
-## 👁️ 预览
-
-![](https://github.com/shoppingzh/vitepress-template/blob/main/preview.png?raw=true)
 
 ## 🚀 特性
 

@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { autoGenerateSidebar } from 'press-util'
+import vite from './vite.config'
 
 export default defineConfig({
   base: '/',
@@ -43,5 +44,7 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
-  }
+  },
+
+  vite,
 })

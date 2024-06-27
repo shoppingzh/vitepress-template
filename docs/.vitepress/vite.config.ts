@@ -1,16 +1,16 @@
-import { resolve } from 'path'
+import path from 'node:path'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 
 export default {
   resolve: {
     alias: [
-      { find: '@', replacement: resolve(__dirname, './.vitepress') }
+      { find: '@', replacement: path.resolve(__dirname, '.') }
     ]
   },
   plugins: [
     createSvgIconsPlugin({
       iconDirs: [
-        resolve(__dirname, './.vitepress/icons')
+        path.resolve(__dirname, './icons')
       ],
       symbolId: 'svg-icon/[name]',
     }),

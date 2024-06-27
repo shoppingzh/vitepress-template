@@ -1,10 +1,12 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const { existsSync, mkdirSync, readFileSync, writeFileSync } = require('fs')
-const { downloadSvgs } = require('iconfont-downloader')
-const path = require('path')
-const prompt = require('prompt')
-const rimraf = require('rimraf')
 
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
+import { downloadSvgs } from 'iconfont-downloader'
+import path from 'path'
+import prompt from 'prompt'
+import rimraf from 'rimraf'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const destDir = path.resolve(__dirname, '../icons')
 const configFilePath = path.resolve(__dirname, '.gen-icons')
 

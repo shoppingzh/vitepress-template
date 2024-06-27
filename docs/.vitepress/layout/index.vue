@@ -2,7 +2,7 @@
   <Layout>
     <template #layout-top>
       <el-backtop>
-        <svg-icon name="huojian" class="text-2xl" />
+        <svg-icon name="dingbu" class="text-2xl text-blue-500" />
       </el-backtop>
     </template>
     <template #doc-before>
